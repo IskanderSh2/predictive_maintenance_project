@@ -30,7 +30,11 @@ predictive_maintenance_project/
 ├── data/
 │   └── predictive_maintenance.csv   # CSV-файл, если используется локально
 └── video/
+<<<<<<< HEAD
     └── demo.mp4            # (опционально) Видео-демонстрация
+=======
+    └── demo.mp4            # Видео-демонстрация
+>>>>>>> e389937 (added video)
 ```
 
 ---
@@ -41,12 +45,20 @@ predictive_maintenance_project/
 
 #### Через HTTPS:
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/<твой_логин>/predictive_maintenance_project.git
+=======
+git clone https://github.com/IskanderSh2/predictive_maintenance_project.git
+>>>>>>> e389937 (added video)
 ```
 
 #### Или через SSH:
 ```bash
+<<<<<<< HEAD
 git clone git@github.com:<твой_логин>/predictive_maintenance_project.git
+=======
+git clone git@github.com:IskanderSh2/predictive_maintenance_project.git
+>>>>>>> e389937 (added video)
 ```
 
 Перейди в папку проекта:
@@ -72,7 +84,10 @@ streamlit run app.py
 - Streamlit
 - Pandas, Seaborn, Matplotlib
 - Scikit-learn
+<<<<<<< HEAD
 - XGBoost
+=======
+>>>>>>> e389937 (added video)
 - streamlit-reveal-slides
 
 ---
